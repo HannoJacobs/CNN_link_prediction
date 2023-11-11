@@ -211,6 +211,7 @@ if __name__ == "__main__":
                         float_label = label.float()
                         loss = metric(output, float_label)
                         loss.backward()
+                        optimizer.step()
 
                         if full_run == False:
                             if batch_num == 1:
