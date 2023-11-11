@@ -1,0 +1,16 @@
+numpy
+matplotlib
+networkx
+
+node2vec
+lightgbm
+
+## NN packages
+torch-geometric
+onnx
+torch
+
+
+
+
+
