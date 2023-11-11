@@ -1,0 +1,22 @@
+
+####################################################################################################
+full_run=True - retrain=True
+ConvNN_1.py - sorted based on test_accuracy metrics:
+
+1: num_epochs=10	optimizer_name=1_Adam	loss_metric=BCELoss()
+train_metrics={'f1_score': 1.0, 'accuracy': 100.0, 'precision': 1.0, 'recall': 1.0, 'TP': 348659, 'TN': 409924, 'FP': 0, 'FN': 2, 'correct': 758583, 'total': 758585}
+test_metrics={'f1_score': 1.0, 'accuracy': 99.99, 'precision': 1.0, 'recall': 1.0, 'TP': 87164, 'TN': 102465, 'FP': 0, 'FN': 18, 'correct': 189629, 'total': 189647}
+
+main() run_time = 63.37 min
+####################################################################################################
+
+####################################################################################################
+full_run=True - retrain=True
+ConvNN.py - sorted based on test_accuracy metrics:
+
+1: num_epochs=10	optimizer_name=Adam	loss_metric=BCE
+train_metrics={'f1_score': 1.0, 'accuracy': 100.0, 'precision': 1.0, 'recall': 1.0, 'TP': 348567, 'TN': 410018, 'FP': 0, 'FN': 0, 'correct': 758585, 'total': 758585}
+test_metrics={'f1_score': 0.9999, 'accuracy': 99.9926, 'precision': 1.0, 'recall': 0.9998, 'TP': 87262, 'TN': 102371, 'FP': 0, 'FN': 14, 'correct': 189633, 'total': 189647}
+
+main() run_time = 63.81 min
+####################################################################################################
